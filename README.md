@@ -1,4 +1,4 @@
-# 🔐 Web Authentication Automation
+# Web Authentication Automation
 
 Automated web authentication testing for [automationexercise.com](https://www.automationexercise.com/) using **Playwright** — a modern end-to-end testing framework.
 
@@ -6,7 +6,7 @@ This project automates the full authentication flow: **user registration → log
 
 ---
 
-## ✨ Features
+## Features
 
 - **Automated User Registration** — Creates a fresh account with realistic Bangladeshi credentials on every run
 - **Login Verification** — Logs in with registered credentials and verifies successful authentication
@@ -15,7 +15,7 @@ This project automates the full authentication flow: **user registration → log
 - **Slow Motion Mode** — Runs with visible delays (800ms) so you can watch each step
 - **HTML Reports** — Auto-generates detailed test reports after each run
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -23,7 +23,7 @@ This project automates the full authentication flow: **user registration → log
 | [Node.js](https://nodejs.org/) | JavaScript runtime |
 | Chromium | Test browser |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Web-Authentication-Automation/
@@ -36,7 +36,7 @@ Web-Authentication-Automation/
 └── README.md                # Documentation
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -71,7 +71,7 @@ Web-Authentication-Automation/
 | `npm run test:setup` | Run only the registration setup |
 | `npm run report` | Open the HTML test report |
 
-## 🧪 Test Flow
+## Test Flow
 
 ```
 1. Register (Setup)
@@ -112,13 +112,13 @@ Each test run creates a unique Bangladeshi identity:
 ```
 
 **Data includes:**
-- 🧑 Bangladeshi male names (Rahim, Tanvir, Sabbir, Rakib, Fahim, etc.)
-- 🏠 Real areas (Mirpur, Dhanmondi, Uttara, Gulshan, Banani, etc.)
-- 🏙️ Cities (Dhaka, Chittagong, Sylhet, Khulna, Rajshahi)
-- 📱 BD mobile format (017/018/019/016/015/013 + 8 digits)
-- 🏢 Bangladeshi companies (Grameenphone, BRAC IT, Pathao, Chaldal, etc.)
+- Bangladeshi male names (Rahim, Tanvir, Sabbir, Rakib, Fahim, etc.)
+- Real areas (Mirpur, Dhanmondi, Uttara, Gulshan, Banani, etc.)
+- Cities (Dhaka, Chittagong, Sylhet, Khulna, Rajshahi)
+- BD mobile format (017/018/019/016/015/013 + 8 digits)
+- Bangladeshi companies (Grameenphone, BRAC IT, Pathao, Chaldal, etc.)
 
-## ⚙️ Configuration
+## Configuration
 
 The automation runs with these settings in `playwright.config.js`:
 
@@ -129,7 +129,7 @@ The automation runs with these settings in `playwright.config.js`:
 | `timeout` | 120s | Max time per test |
 | `viewport` | 1280×720 | Browser window size |
 
-## 📊 Test Report
+## Test Report
 
 After running tests, view the HTML report:
 
@@ -138,8 +138,3 @@ npm run report
 ```
 
 This opens a detailed report at `http://localhost:9323` showing pass/fail status, execution time, and error screenshots for any failures.
-
-## 👤 Author
-
-**Faisal Ahmed**
-- GitHub: [@FaisalAhmed21](https://github.com/FaisalAhmed21)
